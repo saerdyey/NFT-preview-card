@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #0d192b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.card {
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #14253d;
+}
+
+.card .banner-container {
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.card .banner-container .hover-overlay {
+  position: absolute;
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 255, 247, 0.7);
+  opacity: 0;
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.card .banner-container .hover-overlay:hover {
+  opacity: 1;
+}
+
+.card .banner-container .hover-overlay img {
+  width: 54px;
+}
+
+.card .banner-container img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 0 10px 0;
+  cursor: pointer;
+}
+
+.card h3:hover {
+  color: #00fff7;
+}
+
+.card p {
+  color: #8bacda;
+  padding: 10px 0 10px 0;
+  line-height: 1.5;
+}
+
+.card .info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .info-container .value-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .info-container .value-container span {
+  color: white;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.card .info-container .value-container span:hover {
+  color: #00fff7;
+}
+
+.card .info-container .days {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .info-container .days p {
+  margin-left: 5px;
+}
+
+.card .profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid #2f415b;
+  padding-top: 10px;
+}
+
+.card .profile-container img {
+  width: 48px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.card .profile-container span {
+  color: white;
+  cursor: pointer;
+}
+
+.card .profile-container span:hover {
+  color: #00fff7;
+}
+
+.attribution-container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 64px;
+}
+
+.attribution-container .attribution {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  height: 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(64px);
+          transform: translateY(64px);
+  -webkit-transition: ease-in-out 0.3s;
+  transition: ease-in-out 0.3s;
+}
+
+.attribution-container:hover .attribution {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+/*# sourceMappingURL=style.css.map */
